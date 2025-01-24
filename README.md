@@ -7,32 +7,6 @@
 -   Node.js
 -   npm
 
-## Instalación
-
-### Composer
-
-```bash
-composer install
-```
-
-Creación de .env
-
-```bash
-cp .env.example .env
-```
-
-Generación de Key
-
-```bash
-php artisan key:generate
-```
-
-### NPM
-
-```bash
-npm install
-```
-
 ## Configuración de base de datos
 
 ```env
@@ -90,7 +64,7 @@ Durante el desarrollo, se espera que los candidatos utilicen **Git** para gestio
 
 2. **Ramas**:
 
-    - Crear una rama a partir de `main` con el nombre `feature/nombre-apellido` (sustituyendo `nombre-apellido` por el nombre y apellido del candidato).
+    - Crear una rama a partir de `main` con el nombre `feature/nombre-apellido`.
 
 3. **Uso de Etiquetas** _(Opcional)_:
 
