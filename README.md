@@ -54,13 +54,14 @@ SERVE_HTTPS_CERT=null
 
 ## Objetivo
 
-Crear un sistema CRUD para **articulos** utilizando **React.js** como frontend y **Laravel** como backend. El objetivo es desarrollar una aplicación funcional que cumpla con los siguientes puntos:
+Crear un sistema CRUD de **articulos** utilizando **React.js** como frontend y **Laravel** como backend. El objetivo es desarrollar una aplicación funcional que cumpla con los siguientes puntos:
 
 ### Requisitos
 
 #### Backend
 
 -   Generar migraciones para la base de datos.
+    -   Columnas: id, nombre, cantidad, precio, fecha_creacion, fecha_modificacion
 -   Crear modelos que representen las entidades.
 -   Implementar controladores para manejar la lógica del servidor.
 -   Diseñar APIs RESTful.
@@ -77,6 +78,26 @@ Agregar funcionalidades avanzadas en el frontend:
 -   Uso de **Hooks** para la gestión de estado y efectos.
 -   Implementación de **Contextos** para manejar estados globales.
 -   Uso de **Reducers** para estructurar lógicas complejas de estado.
+
+## Uso de Git
+
+Durante el desarrollo, se espera que los candidatos utilicen **Git** para gestionar el control de versiones del proyecto. Los siguientes puntos serán evaluados:
+
+1. **Historial de Commits**:
+
+    - Los commits deben ser claros, descriptivos y enfocados en cambios específicos.
+    - Se recomienda usar un formato consistente en los mensajes de commit, como [Conventional Commits](https://www.conventionalcommits.org/).
+
+2. **Ramas**:
+
+    - Crear una rama a partir de `main` con el nombre `feature/nombre-apellido` (sustituyendo `nombre-apellido` por el nombre y apellido del candidato).
+
+3. **Uso de Etiquetas** _(Opcional)_:
+
+    - Crear etiquetas para marcar versiones del proyecto (e.g., `v1.0.0`, `v1.1.0`).
+
+4. **Repositorio**:
+    - Subir la rama creada al repositorio remoto.
 
 ### Criterios de Evaluación
 
